@@ -1,0 +1,49 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# UV
+.python-version
+
+# Optional: Ignore local vector database
+qdrant_db/
+
+# Optional: Ignore FAISS index (if regenerated)
+faiss_index/
+
+# Optional: Ignore uploaded PDFs (if they're just test data)
+data/
+*.pdf
